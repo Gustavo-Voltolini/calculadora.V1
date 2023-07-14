@@ -1,0 +1,50 @@
+body {
+	background: #3129298c;
+}
+.wrapper {
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #262626;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+	border-radius: 2rem;
+	box-shadow: 10px 15px 15px rgba(0, 0, 238, 0.7);
+}
+.wrapper h2 {
+	
+	text-transform: uppercase;
+	font-family: poppins;
+	margin-bottom: 10%;
+}
+input[type="text"] {
+	border: solid, 1px;
+	height: 40px;
+	font-size: 24px;
+	border-radius: 1rem;
+}
+
+
+button {
+	border-radius: 2rem;
+	background: #1900ff;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: poppins;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+}
+b {
+	font-size: 30px;
+}
